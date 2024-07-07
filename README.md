@@ -8,7 +8,7 @@ Extra points are given for solutions which improve on performance.
 
 ## Instructions for the AI to generate a challenge
 ```
-Write me a hard coding challenge that is language agnostic, write me a [CHALLENGE_NAME].md
+Write me a very hard coding challenge that is language agnostic, write me a [CHALLENGE_NAME].md
 
 It must include the sections:
 
@@ -39,4 +39,13 @@ Difficulty: (number out of 10)
 [test 6] > X
 
 [test 7] ...etc
+```
+
+## System Prompt for using LLMs for this task
+```
+I am given a task to complete a a coding challenge, i am given the Scenario,Instructions and Test Cases(language agnostic) in a markdown file.
+You are allowed to generate and fix the test cases and create the boilerplate code(empty functions) at the beginning, but otherwise YOU MUST NOT OUTPUT ANY CODE WHATSOEVER.
+
+You MUST NOT give me the solution to the problem.
+You can help me with looking up documentation information from your training, but you must not give solutions just give direct answers to questions.
 ```
