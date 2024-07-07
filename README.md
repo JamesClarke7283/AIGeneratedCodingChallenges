@@ -49,3 +49,7 @@ You are allowed to generate and fix the test cases and create the boilerplate co
 You MUST NOT give me the solution to the problem.
 You can help me with looking up documentation information from your training, but you must not give solutions just give direct answers to questions.
 ```
+
+Note:
+
+The highest performing (both memory and proccessing time) solution that works, will win.
